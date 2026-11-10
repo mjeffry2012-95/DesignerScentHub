@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DesignerScentHub menawarkan parfum designer original dengan harga lebih terjangkau. Temukan koleksi Versace, YSL, Jean Paul Gaultier, dan Xerjoff.">
+  <title>DesignerScentHub | Luxury Scents, Smarter Prices</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand-logo" href="index.html">
+        <img src="images/Logo Minimalis DesignerScentHub.png" alt="DesignerScentHub Logo">
+      </a>
+
+      <button class="menu-toggle" aria-label="Buka menu"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="index.html#products">Produk</a>
+        <a href="index.html#brands">Koleksi Brand</a>
+        <a href="about.html">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">DESIGNERSCENTHUB.COM</p>
+        <h1>Luxury Scents.<br><span>Smarter Prices.</span></h1>
+        <p class="hero-description">
+          Temukan parfum designer favoritmu dengan harga lebih terjangkau.
+          Koleksi pilihan untuk setiap karakter, suasana, dan momen.
+        </p>
+        <a class="btn btn-gold" href="#brands">Jelajahi Koleksi <span>→</span></a>
+      </div>
+      <div class="hero-caption">DISCOVER YOUR SIGNATURE SCENT</div>
+    </section>
+
+    <section class="section container" id="brands">
+      <div class="section-heading">
+        <p class="eyebrow">OUR SELECTION</p>
+        <h2>Our Featured <span>Brands</span></h2>
+        <p>Empat brand parfum designer dengan karakter yang berbeda.</p>
+      </div>
+
+      <div class="brand-grid">
+        <article class="brand-card">
+          <img src="images/eros flame.jpeg"
+  alt="Versace Eros Flame"
+  loading="lazy">
+
+          <div class="brand-overlay">
+            <p class="eyebrow">BOLD. ICONIC. TIMELESS.</p>
+            <h3>VERSACE</h3>
+            <a href="#products" class="text-link">Lihat Koleksi →</a>
+          </div>
+        </article>
+
+        <article class="brand-card">
+          <img src="images/1_Product_3614272050358-Yves-Saint-Laurent-Y-Eau-de-Parfum-1_b1d49f8e1862c5696b8db119d23851ca553e0296_1707447775.webp"
+            alt="Botol parfum elegan untuk koleksi YSL" loading="lazy">
+          <div class="brand-overlay">
+            <p class="eyebrow">MODERN SOPHISTICATION</p>
+            <h3>YSL</h3>
+            <a href="#products" class="text-link">Lihat Koleksi →</a>
+          </div>
+        </article>
+
+        <article class="brand-card">
+          <img src="images/naxos.jpeg"
+            alt="Botol parfum mewah untuk koleksi Xerjoff" loading="lazy">
+          <div class="brand-overlay">
+            <p class="eyebrow">ART. LUXURY. UNIQUENESS.</p>
+            <h3>XERJOFF</h3>
+            <a href="#products" class="text-link">Lihat Koleksi →</a>
+          </div>
+        </article>
+
+        <article class="brand-card">
+          <img src="images/le male edt.webp"
+            alt="Botol parfum untuk koleksi Jean Paul Gaultier" loading="lazy">
+          <div class="brand-overlay">
+            <p class="eyebrow">DISTINCTIVE. UNFORGETTABLE.</p>
+            <h3>JEAN PAUL GAULTIER</h3>
+            <a href="#products" class="text-link">Lihat Koleksi →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FIND YOUR FRAGRANCE</p>
+          <h2>Featured <span>Products</span></h2>
+          <p>Temukan aroma yang paling sesuai dengan gayamu.</p>
+        </div>
+
+        <div class="filter-list" aria-label="Filter brand parfum">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="versace">Versace</button>
+          <button class="filter-btn" data-filter="ysl">YSL</button>
+          <button class="filter-btn" data-filter="jpg">Jean Paul Gaultier</button>
+          <button class="filter-btn" data-filter="xerjoff">Xerjoff</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-brand="versace">
+            <div class="product-image">
+              <img src="images/eros flame.jpeg"
+  alt="Versace Eros Flame"
+  loading="lazy">
+
+              <span class="product-tag">VERSACE</span>
+            </div>
+            <div class="product-info">
+              <h3>Versace Eros Flame</h3>
+              <p>Aroma hangat, berani, dan memikat.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="versace">
+            <div class="product-image">
+              <img src="images/dylan blue.avif"
+                alt="Versace Dylan Blue" loading="lazy">
+              <span class="product-tag">VERSACE</span>
+            </div>
+            <div class="product-info">
+              <h3>Versace Dylan Blue</h3>
+              <p>Karakter segar dengan kesan maskulin.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="ysl">
+            <div class="product-image">
+              <img src="images/1_Product_3614272050358-Yves-Saint-Laurent-Y-Eau-de-Parfum-1_b1d49f8e1862c5696b8db119d23851ca553e0296_1707447775.webp"
+                alt="YSL Y Eau de Parfum" loading="lazy">
+              <span class="product-tag">YSL</span>
+            </div>
+            <div class="product-info">
+              <h3>YSL Y Eau de Parfum</h3>
+              <p>Modern, bersih, dan penuh percaya diri.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="ysl">
+            <div class="product-image">
+              <img src="images/libre edp.webp"
+                alt="YSL Libre Eau de Parfum" loading="lazy">
+              <span class="product-tag">YSL</span>
+            </div>
+            <div class="product-info">
+              <h3>YSL Libre EDP</h3>
+              <p>Elegan, ekspresif, dan berkarakter.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="jpg">
+            <div class="product-image">
+              <img src="images/le male edt.webp"
+                alt="Jean Paul Gaultier Le Male" loading="lazy">
+              <span class="product-tag">JPG</span>
+            </div>
+            <div class="product-info">
+              <h3>JPG Le Male EDT</h3>
+              <p>Klasik, aromatik, dan mudah dikenali.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="jpg">
+            <div class="product-image">
+              <img src="images/scandal.jpg"
+                alt="Jean Paul Gaultier Scandal" loading="lazy">
+              <span class="product-tag">JPG</span>
+            </div>
+            <div class="product-info">
+              <h3>JPG Scandal</h3>
+              <p>Intens, menonjol, dan penuh pesona.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="xerjoff">
+            <div class="product-image">
+              <img src="images/naxos.jpeg"
+                alt="Xerjoff Naxos" loading="lazy">
+              <span class="product-tag">XERJOFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Xerjoff Naxos</h3>
+              <p>Aroma mewah dengan karakter khas.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+
+          <article class="product-card" data-brand="xerjoff">
+            <div class="product-image">
+              <img src="images/torina 21.jpeg"
+                alt="Xerjoff Torino21" loading="lazy">
+              <span class="product-tag">XERJOFF</span>
+            </div>
+            <div class="product-info">
+              <h3>Xerjoff Torino21</h3>
+              <p>Segar, energik, dan sophisticated.</p>
+              <a href="#contact" class="text-link">Tanya Ketersediaan →</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="catalog-note">
+          Katalog ini merupakan contoh produk. Hubungi kami untuk mengecek
+          stok, ukuran, dan harga terbaru.
+        </p>
+      </div>
+    </section>
+
+    <section class="benefits container">
+      <div class="benefit-item">
+        <span class="benefit-icon">◇</span>
+        <div>
+          <h3>Authenticity First</h3>
+          <p>Prioritas pada produk original.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <span class="benefit-icon">₨</span>
+        <div>
+          <h3>Smarter Prices</h3>
+          <p>Harga kompetitif dan transparan.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <span class="benefit-icon">↗</span>
+        <div>
+          <h3>Secure Service</h3>
+          <p>Informasi pemesanan yang jelas.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <span class="benefit-icon">♡</span>
+        <div>
+          <h3>Customer Support</h3>
+          <p>Bantuan untuk memilih parfum.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div>
+        <a class="footer-brand" href="index.html">DesignerScentHub<span>.</span></a>
+        <p>Luxury scents. Smarter prices.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Produk</a>
+        <a href="about.html">About Us</a>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>Ingin mengetahui harga atau ketersediaan produk?</p>
+        <a href="mailto:hello@designerscenthub.com">Email kami</a>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> DesignerScentHub. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
